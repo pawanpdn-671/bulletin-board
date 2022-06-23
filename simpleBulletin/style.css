@@ -1,0 +1,62 @@
+header {
+	padding: 0 20px;
+}
+button {
+	cursor: pointer;
+}
+.btn-block {
+	margin-top: 50px;
+}
+.btn-block button {
+	border: none;
+	outline: none;
+	padding: 8px 15px;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: rgb(33, 121, 155);
+	color: white;
+}
+.modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.437);
+}
+.modal-content {
+	width: 400px;
+	background-color: white;
+	padding: 25px 40px;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.modal-content .form-group {
+	margin-top: 15px;
+}
+.form-group input {
+	display: block;
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	outline: none;
+	font-size: 15px;
+	border: 1px solid grey;
+}
+.add-article-btn {
+	display: block;
+	width: 100%;
+	margin-top: 30px;
+	padding: 12px 0;
+	font-size: 16px;
+	background-color: rgb(146, 109, 181);
+	outline: none;
+	border: none;
+	color: white;
+	font-weight: 600;
+	border-radius: 5px;
+}

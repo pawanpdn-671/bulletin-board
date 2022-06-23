@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="btn-block">
+				<button type="button" class="create-article-btn">Create New Article</button>
+			</div>
+
+			<div class="article-items"></div>
+		</header>
+
+		<div class="modal">
+			<form class="modal-content">
+				<div class="form-group">
+					<label for="article">Article Title</label>
+					<input type="text" id="article" />
+				</div>
+				<div class="form-group">
+					<label for="content">Article Content Snippet</label>
+					<input type="text" id="content" />
+				</div>
+				<div class="form-group">
+					<label for="date">Created Date</label>
+					<input type="date" id="date" />
+				</div>
+
+				<button type="button" class="add-article-btn">Add Article</button>
+			</form>
+		</div>
+		<script src="./index.js"></script>
+	</body>
+</html>
